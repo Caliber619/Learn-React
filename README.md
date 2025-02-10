@@ -29,6 +29,31 @@ $ npm install
 $ npm start
 ```
 
+To setup your own directory
+
+```bash
+# Open terminal and navigate to desired folder using command 
+$ cd path-to-your-folder
+
+# Create a VITE react app using the command
+$ npm create vite@latest
+
+# Select the library
+$ react
+
+# Select the language for library
+$ javascript
+
+# Navigate to newly created project 
+$ cd project-path
+
+# Install dependencies
+$ npm install
+
+# Live test your project
+$ npm run dev
+```
+
 ## 🎯 Why Learn React?
 React.js is a powerful JavaScript library for building user interfaces, widely used in modern web development. It helps create fast, scalable, and interactive applications. If you're new to React, here are some useful resources:
 
