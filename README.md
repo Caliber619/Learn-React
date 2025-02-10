@@ -54,6 +54,6 @@ Have suggestions or want to collaborate? Reach out to me via email! 📩
 
 📧 **Email:** [yadav.d.kshitij2003@gmail.com](mailto:yadav.d.kshitij2003@gmail.com)
 
-📌 **GitHub Profile:** [https://github.com/your-github-username](https://github.com/your-github-username)
+📌 **GitHub Profile:** [https://github.com/your-github-username](https://github.com/Caliber619)
 
 🚀 Happy Coding & Keep Learning! 😃
