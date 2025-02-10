@@ -11,6 +11,8 @@ Welcome to **Learn-React**! 🎉 This repository contains my journey of learning
 
 ## 🚀 Getting Started
 
+![React Fun](https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif)
+
 To run any of the React projects in this repo, follow these steps:
 
 ```bash
@@ -43,9 +45,7 @@ React.js is a powerful JavaScript library for building user interfaces, widely u
 - 🔧 **Node.js & npm**
 - 🔥 **Firebase (sometimes 😆)**
 
-## 🎉 Fun GIFs Because Why Not? 😜
 
-![React Fun](https://media.giphy.com/media/QTfX9Ejfra3ZmNxh6B/giphy.gif)
 
 ![Coding Mode](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif)
 
