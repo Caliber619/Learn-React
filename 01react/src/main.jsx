@@ -13,10 +13,10 @@ function MyApp(){
 }
 const anotherUser = "Merlin"   /*//evaluated expression smjhne ke liye*/
 const reactElement  = React.createElement(
-  'a',
-  {href:'https://google.com',target:'_blank'},
-  'click me to visit google',
-  anotherUser
+  'a',   //tag
+  {href:'https://google.com',target:'_blank'},  //href
+  'click me to visit google',   //text
+  anotherUser     //evaluated expression
 )
 ReactDOM.createRoot(document.getElementById('root')).render(
   // reactElement
