@@ -19,7 +19,9 @@ function App() {
   }
   const removeValue = ()=>{
     // console.log("counter value: "+counter);
-    counter -= 1;
+    if(counter != 0){
+      counter -= 1;
+    }
     Counterfunc(counter)
   }
   return (
