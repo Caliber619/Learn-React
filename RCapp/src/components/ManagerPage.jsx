@@ -1,17 +1,22 @@
 import { useState } from 'react';
+import axios from "axios";
 
 function ManagerPage() {
   // Mock data - in a real app, this would come from your backend
-  const [tokens, setTokens] = useState([
-    { id: 'token1', student: 'John Doe', room: 'A101', time: '09:00', status: 'pending', workerId: null },
-    { id: 'token2', student: 'Jane Smith', room: 'B205', time: '10:30', status: 'assigned', workerId: 'W001' },
-    { id: 'token3', student: 'Alex Johnson', room: 'C310', time: '14:00', status: 'completed', workerId: 'W002' }
-  ]);
+
+  const [tokens, setTokens] = useState([]);
+  // const [tokens, setTokens] = useState([
+  //   { id: 'token1', student: 'Kshitij', room: 'A101', time: '09:00', status: 'pending', workerId: null },
+  //   { id: 'token2', student: 'Atharva', room: 'B205', time: '10:30', status: 'assigned', workerId: 'W001' },
+  //   { id: 'token3', student: 'Sparsh', room: 'C310', time: '14:00', status: 'completed', workerId: 'W002' }
+  // ]);
   
-  const [workers, setWorkers] = useState([
-    { id: 'W001', name: 'Worker 1', active: true },
-    { id: 'W002', name: 'Worker 2', active: true }
-  ]);
+
+  const [workers, setWorkers] = useState([]);
+  // const [workers, setWorkers] = useState([
+  //   { id: 'W001', name: 'Worker 1', active: true },
+  //   { id: 'W002', name: 'Worker 2', active: true }
+  // ]);
   
   const [newWorker, setNewWorker] = useState({ name: '' });
   const [selectedToken, setSelectedToken] = useState(null);
