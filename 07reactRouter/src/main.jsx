@@ -62,6 +62,7 @@ const router = createBrowserRouter(
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    {/* router kese banae? ek router provider se then use createBrowserRouter function */}
     <RouterProvider router={router}/>   {/* Router provider ek prop leta hai */}
   </StrictMode>,
 )
