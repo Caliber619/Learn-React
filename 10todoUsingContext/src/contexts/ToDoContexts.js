@@ -20,7 +20,7 @@ export const ToDoContext = createContext({
 
 // context ko use krne ke liye useContext
 export const useTodo = ()=>{
-    return useContext(TodoContext)
+    return useContext(ToDoContext)
 }
 
 // wrapping ke liye context provider

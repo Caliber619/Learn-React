@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useTodo } from "../contexts/ToDoContexts";
 
-function TodoItem({ todo }) {
+function TodoItem( { todo } ) {
     const [isTodoEditable, setIsTodoEditable] = useState(false)
     const [todoMsg, setTodoMsg] = useState(todo.todo)
-    const {updateTodo, deleteTodo, toggleComplete} = useTodo
+    const {updateTodo, deleteTodo, toggleComplete} = useTodo()
 
     const editTodo = ()=>{
         updateTodo(todo.id,{...todo, todo: todoMsg})
@@ -27,7 +27,7 @@ function TodoItem({ todo }) {
                 checked={todo.completed}
                 onChange={toggleCompleted}
             />
-            
+
             <input
                 type="text"
                 className={`border outline-none w-full bg-transparent rounded-lg ${

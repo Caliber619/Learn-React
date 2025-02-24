@@ -1,4 +1,4 @@
-import { useState, useEffect, localStorage } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import { TodoProvider } from './contexts/ToDoContexts'
 import { TodoForm, TodoItem } from './components'
@@ -25,7 +25,7 @@ function App() {
   }
 
   const toggleComplete = (id) => {
-    setTodos((prev) => prev.map((prevTodo) => prevTodo === id ? {...prevTodo, completed: !prevTodo.completed} : prevTodo ))
+    setTodos((prev) => prev.map((prevTodo) => prevTodo.id === id ? {...prevTodo, completed: !prevTodo.completed} : prevTodo ))
   }
 
   //--
@@ -66,7 +66,7 @@ function App() {
                     {/*Loop and Add TodoItem here */}
                     {todos.map((todo)=> (
                       <div key={todo.id} className='w-full'>
-                        <TodoItem />
+                        <TodoItem  todo={todo}/>
                       </div>
                     ))}
                 </div>
