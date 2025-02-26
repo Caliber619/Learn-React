@@ -50,9 +50,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 440.0808737616762,
-			"y": 1084.1506987700488,
-			"lastActivityTimestamp": 1740609864550,
+			"x": 190.03692825718758,
+			"y": 1660.2935694669036,
+			"lastActivityTimestamp": 1740610430959,
 			"meta": {}
 		},
 		{
@@ -104,12 +104,12 @@
 			"typeName": "instance"
 		},
 		{
-			"editingShapeId": "shape:zjmpphXs-8XSUQcMtX_Dl",
+			"editingShapeId": "shape:62M7QivNtUEBJ_f13PbCg",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:zjmpphXs-8XSUQcMtX_Dl"
+				"shape:62M7QivNtUEBJ_f13PbCg"
 			],
-			"hoveredShapeId": "shape:f3TBFUKb1yie9SrEr0i8q",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -120,7 +120,7 @@
 		},
 		{
 			"x": 8.956366533243235,
-			"y": -652.8249111561339,
+			"y": -1173.7497562244314,
 			"z": 0.7678650841611456,
 			"meta": {},
 			"id": "camera:page:page",
@@ -3888,6 +3888,52 @@
 			},
 			"parentId": "page:page",
 			"index": "aL1b0",
+			"typeName": "shape"
+		},
+		{
+			"x": 78.55901339974248,
+			"y": 1472.7606252423166,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:RZWpQtl48lhNaE37VH35Y",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "s",
+				"w": 659.6625366210938,
+				"text": "-> make a (conf) file to make the access to these env variables easier",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aM5hl",
+			"typeName": "shape"
+		},
+		{
+			"x": 119.19114734072853,
+			"y": 1508.1835306043254,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:62M7QivNtUEBJ_f13PbCg",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "s",
+				"w": 68.8125,
+				"text": ": conf.js",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aN6W1",
 			"typeName": "shape"
 		}
 	]
