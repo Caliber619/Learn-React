@@ -1,5 +1,5 @@
-import conf from '../conf.js'
-import {Client, Account, ID} from "appwrite"
+import conf from '../conf/conf.js';
+import {Client, Account, ID} from "appwrite";
 
 export class AuthService {
     // lets make two properties
@@ -12,7 +12,7 @@ export class AuthService {
             .setEndpoint(conf.appwriteUrl)
             .setProject(conf.appwriteProjectId);
 
-        this.account = new Account(client);
+        this.account = new Account(this.client);
     }
 
     // ek method (wrapper type ka) appwrite ki sari services ke liye
