@@ -3883,9 +3883,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 125.50128801118889,
-			"y": 1601.6372340190917,
-			"lastActivityTimestamp": 1740665042980,
+			"x": -77.75859540802877,
+			"y": 345.27381216372385,
+			"lastActivityTimestamp": 1740666816249,
 			"meta": {}
 		},
 		{
@@ -3947,12 +3947,35 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": -14.507005269100349,
-			"y": -1411.4764350177584,
-			"z": 0.992843972276505,
+			"x": 177.24051758390436,
+			"y": 141.68179708985704,
+			"z": 0.5930725775050165,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": 47.68981002704484,
+			"y": 393.83445867705075,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:fSITxP5uWylfeVN1cWGs3",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 8,
+				"text": "",
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aP4EQ",
+			"typeName": "shape"
 		}
 	]
 }
