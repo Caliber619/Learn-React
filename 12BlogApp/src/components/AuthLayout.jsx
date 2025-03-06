@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
-import {useSelector} from 'react-redux'   // information puchne ke liye
-import {useNavigate} from 'react-router-dom'  //user ko redirect krne ke liye
+import {useSelector} from 'react-redux';  // information puchne ke liye
+import {useNavigate} from 'react-router-dom';  //user ko redirect krne ke liye
 
 
 //conditionally render krege ki childrens ko render krna h ya nahi
