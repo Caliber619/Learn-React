@@ -5,6 +5,8 @@ import './App.css'
 import authService from "./appwrite/auth"
 import {login, logout} from "./store/authSlice"
 import {Header, Footer} from './components'
+import { Outlet } from 'react-router-dom'
+import Tagg from './components/uiComponents/Tagg'
 
 
 function App() {
@@ -29,13 +31,21 @@ function App() {
 
   //conditional rendering
   return !loading ? 
-    (<div className='min-h-sc flex flex-wrap content-between bg-gray-300'>
+    (<div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
       <div className='text-center w-full block'>
+
         <Header />
+
         <main>
-          {/* TODO: <Outlet /> */}
+            <br></br>
+            <div className='flex justify-center'>
+              <Tagg />
+            </div>
+            <Outlet />
         </main>
+
         <Footer />
+        
       </div>
     </div>) : null
 }
